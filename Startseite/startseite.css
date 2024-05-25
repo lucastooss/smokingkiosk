@@ -1,0 +1,51 @@
+body{
+   padding: 0;
+   margin: 0;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+header ul img{
+   padding-right: 100px;
+}
+
+header ul{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+header ul li{
+   padding: 10px;
+}
+
+header{
+   padding: 16px;
+}
+
+h1{
+   padding: 10px;
+}
+
+.light{
+   transition: all 0.3s ease;
+}
+
+.light img:hover{
+   box-shadow: 0 0 10px 5px lightblue;
+   transform: scale(1.05);
+   content: url('/Pictures/ZürichOnHover.png');
+}
+
+.zurich{
+   margin: 50px;
+}
+
+h2{
+   font-size: xx-small;
+}
