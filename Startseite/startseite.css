@@ -2,6 +2,16 @@ body{
    padding: 0;
    margin: 0;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   background: whitesmoke;
+   height: 100%;
+}
+
+html{
+   height: 100%;
+}
+
+nav{
+   display: none;
 }
 
 .center{
@@ -25,6 +35,9 @@ header ul li{
 }
 
 header{
+   position: sticky;
+   top: 0;
+   background: grey;
    padding: 16px;
 }
 
@@ -48,4 +61,66 @@ h1{
 
 h2{
    font-size: xx-small;
+}
+
+footer{
+   background: grey;
+}
+
+.navbar{
+   background: white;
+   padding: 10px;
+   margin: 10px;
+}
+
+@media (max-width: 650px) {
+   header {
+      display: none;
+   }
+
+   nav {
+      width: 100%;
+      height: 85px;
+      background-color: white;
+      display: block;
+      box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.11);
+   }
+
+   nav img {
+      float: right;
+      padding: 30px;
+   }
+
+   nav ul li {
+      list-style: none;
+      position: relative;
+   }
+
+   nav ul li a {
+      font-family: Arial;
+      color: black;
+      font-size: 24px;
+      text-decoration: none;
+      padding: 28px;
+      display: block;
+   }
+
+   nav ul li a:hover {
+      display: block;
+      background-color: #ebebeb;
+   }
+
+   nav ul ul {
+      display: none;
+      position: absolute;
+      background-color: blue;
+   }
+
+   nav ul:hover ul {
+      display: block;
+      position: absolute;
+      background-color: blue;
+      margin: 90px;
+      margin-left: 110px;
+   }
 }
