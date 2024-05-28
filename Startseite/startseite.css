@@ -84,9 +84,12 @@ footer{
       background-color: white;
       display: block;
       box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.11);
+      position: sticky;
+      top: 0px;
+      z-index: 1000;
    }
 
-   nav img {
+   nav ul img {
       float: right;
       padding: 30px;
    }
@@ -97,11 +100,8 @@ footer{
    }
 
    nav ul li a {
-      font-family: Arial;
-      color: black;
-      font-size: 24px;
+      color: white;
       text-decoration: none;
-      padding: 28px;
       display: block;
    }
 
@@ -113,14 +113,20 @@ footer{
    nav ul ul {
       display: none;
       position: absolute;
-      background-color: blue;
+      top: 85px;
+      left: 0;
+      width: 100%;
+      background-color: red;
+      transition: all 0.3s ease;
+   }
+
+   nav ul ul li{
+      margin: 13px;
    }
 
    nav ul:hover ul {
       display: block;
       position: absolute;
-      background-color: blue;
-      margin: 90px;
-      margin-left: 110px;
+      background-color: grey;
    }
 }
