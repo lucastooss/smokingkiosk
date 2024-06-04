@@ -30,6 +30,11 @@ header ul{
    list-style: none;
 }
 
+header ul li a{
+   text-decoration: none;
+   color: black;
+}
+
 header ul li{
    padding: 10px;
 }
@@ -73,6 +78,18 @@ footer{
    margin: 10px;
 }
 
+b{
+   background: grey;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   color: black;
+   font-weight: bold;
+   font-size: xx-large;
+}
+
 @media (max-width: 650px) {
    header {
       display: none;
@@ -87,6 +104,12 @@ footer{
       position: sticky;
       top: 0px;
       z-index: 1000;
+   }
+
+   .center {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
    }
 
    nav ul img {
@@ -129,4 +152,6 @@ footer{
       position: absolute;
       background-color: grey;
    }
+
+
 }
