@@ -70,6 +70,9 @@ h2{
 
 footer{
    background: grey;
+   position: absolute;
+   bottom: 0;
+   width: 100%;
 }
 
 .navbar{
