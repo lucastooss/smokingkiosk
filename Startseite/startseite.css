@@ -57,7 +57,7 @@ h1{
 .light img:hover{
    box-shadow: 0 0 10px 5px lightblue;
    transform: scale(1.05);
-   content: url('/Pictures/ZürichOnHover.png');
+   /*content: url('/Pictures/ZürichOnHover.png');*/
 }
 
 .zurich{
